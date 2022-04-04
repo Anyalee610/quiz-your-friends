@@ -1,10 +1,16 @@
 
 body{
     background-color: rgb(129,150,133);
-    width: 70%;
+    width: 40%;
+    height: 100%;
     margin: auto;
+    text-align: center;
     
 }
 fieldset{
     background-color: rgb(166,197,168);
+    height: 100%;
+    text-align: center;
+    border-color: rgb(120,150,140);
+    border-bottom-width: 10px;
 }
