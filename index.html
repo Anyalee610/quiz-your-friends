@@ -4,43 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <title>forms</title>
 </head>
 <body>
     <form>
         
           <label for="fname">First name:</label><br>
-          <input type="text" id="fname" name="fname" value=""><br>
+          <input type="text" id="fname" name="fname" placeholder ="First name"><br>
           <label for="lname">Last name:</label><br>
-          <input type="text" id="lname" name="lname" value=""><br><br>
+          <input type="text" id="lname" name="lname" placeholder = "Last name"><br><br>
           
           
-             <p>question??</p>
-              <input type="radio" id="html" name="fav_language" value="HTML">
-              <label for="html">HTMLL</label><br>
-              <input type="radio" id="css" name="fav_language" value="CSS">
-              <label for="css">CSSS</label><br>
-              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-              <label for="javascript">JavaScripttt</label><br><br>
+              <label for="CorD">Cat or Dogs?</label><br>
+              
+              <input type="radio" id="cat" name="cat"/>
+              <label for "cat">Cat</label> <br>
+              <input type="radio" id="dog" name= "dog"/>
+              <label for "Dog">Dog</label><br>
+              <input type="radio" id="both" name="both"/>
+              <label for="BothCatandDogs">Both</label><br><br>
+             
               
               
-                <p>What's your birthday?</p>
-                <label for="bdaymonth">Birthday (month and year):</label>
+              
+               
+                <label for="bdaymonth"> Whats Your Birthday? (month and year):</label>
                 <input type="month" id="bdaymonth" name="bdaymonth"><br><br>
                 
                 
-                    <p>What's your favorite color?</p>
-                    <label for="favcolor">Select your favorite color:</label>
-                    <input type="color" id="favcolor" name="favcolor"><br><br>
+                    <label for="favcolor">Select your Favorite Color:</label>
+                    <input type="color" id="favcolor" name="favcolor"><br><br><br>
                     
                     
-                        <p>how often do you watch anime?</p>
+                        <label for="AnimeQ">How Often Do You Watch Anime?</label><br>
                          <input type="checkbox" id="daily" name="daily" value="daily">
                           <label for="Daily">Daily</label><br>
                           <input type="checkbox" id="eOtherday" name="eOtherday" value="eOtherday">
                           <label for="eOtherday">Every other day</label><br>
                           <input type="checkbox" id="weekly" name="weekly" value="weekly">
-                          <label for="weekly">Weekly</label>
+                          <label for="weekly">Weekly</label><br><br>
+                          
+                          
+                          <label for="Dub_or_sub">Dubbed or Subbed Anime?</label><br>
+                          <input type="submit" name="Subbed" value="Sub"/><br>
+                          <input type="submit" name="Dubbed" value="Dub"/><br>
+                           <input type="submit" name="both" value="Both"/>
                 
     </form>
 </body>
