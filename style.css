@@ -4,7 +4,7 @@ body{
     width: 40%;
     height: 100%;
     margin: auto;
-    text-align: center;
+   
     
 }
 fieldset{
@@ -12,5 +12,5 @@ fieldset{
     height: 100%;
     text-align: center;
     border-color: rgb(120,150,140);
-    border-bottom-width: 10px;
+    border-width: 40px;
 }
