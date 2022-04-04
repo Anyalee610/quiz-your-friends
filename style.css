@@ -1,6 +1,10 @@
 
 body{
-    background-color: rgb(166,197,168);
-    position: center;
+    background-color: rgb(129,150,133);
+    width: 70%;
+    margin: auto;
     
+}
+fieldset{
+    background-color: rgb(166,197,168);
 }
